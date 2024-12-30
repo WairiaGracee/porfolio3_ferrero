@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 15px 7%;
+}
+
+
+#homepage{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(rgba(27, 99, 232, 0.6),rgba(27, 99, 232, 0.6)), url(images/persnickety-prints-bDDwMZ8k-ZA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav{
+    width: 83%;
+    height: 130px;
+    background-color: #042a6f;
+    color: #b3a7ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 8.5%;
+}
+
+.logo{
+    flex-basis: 15%;
+    color: #a091e7;
+    letter-spacing: 1.2px;
+    text-align: center;
+    padding: 10px 6px;
+}
+
+nav ul{
+    flex-basis:70%;
+    padding: 10px 6px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 5px 30px 5px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #b3a7ef;
+}
+
+.hero-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content{
+    margin: 150px 0 0;
+    width: 500px;
+    text-align: center;
+
+}
+.hero-content h1{
+    font-size: 4em;
+    color: #bedbf5;
+    letter-spacing: 1.6px;
+}
+.hero-content h1 span{
+    color: #b3a7ef;
+}
+
+.hero-content h4{
+    color: #b3a7ef;
+    font-size: 1.2em;
+    letter-spacing: 1.5px;
+    margin: 40px 0;
+}
+
+.hero-content a{
+    padding: 20px 35px;
+    background-color: #a091e7;
+    color: #221e48;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    border-radius: 15px;
+    transition: background-color 0.5s transform 0.5s ;
+}
+.hero-content a:hover{
+    background-color: #b3a7ef;
+    transform: scale(1.1);
+}
