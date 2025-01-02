@@ -5,6 +5,7 @@
 }
 .container{
     padding: 15px 7%;
+    height: 100%;
 }
 
 
@@ -55,13 +56,15 @@ nav ul li a{
 }
 
 .hero-wrapper{
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .hero-content{
-    margin: 150px 0 0;
+    height: 100%;
+    padding: 200px 0 50px;
     width: 500px;
     text-align: center;
 
@@ -79,7 +82,7 @@ nav ul li a{
     color: #b3a7ef;
     font-size: 1.2em;
     letter-spacing: 1.5px;
-    margin: 40px 0;
+    margin: 40px 0 100px;
 }
 
 .hero-content a{
@@ -95,4 +98,177 @@ nav ul li a{
 .hero-content a:hover{
     background-color: #b3a7ef;
     transform: scale(1.1);
+}
+
+/* about styles */
+#about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+.title{
+    width: 100%;
+    margin: 50px 0 20px;
+    text-align: center;
+}
+
+.title h1{
+    font-size: 2em;
+    color: rgba(38, 44, 57, 0.8);
+}
+
+.horizontal-rule{
+    height: 1px;
+    width: 100%;
+    background-color: rgba(50, 58, 74, 0.5);
+    margin: 30px 0 35px;
+}
+
+.content-image{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content{
+    flex-basis: 45%;
+}
+
+.content p{
+    font-size: 1.3em;
+    letter-spacing: 1.1px;
+    color: #221e48;
+}
+
+.column-break{
+    height: 80px;
+}
+.content .grey{
+    color:rgba(38, 44, 57, 0.4);
+}
+
+.reach-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.reach-me div h2{
+    color:rgba(38, 44, 57, 0.8);
+    margin-bottom: 15px;
+}
+
+.reach-me div p{
+    color:rgba(38, 44, 57, 0.6);
+}
+.image{
+    flex-basis: 42%;
+    height: 580px;
+}
+.image img{
+    height: 83%;
+    width: 100%;
+    object-fit: cover;
+}
+.contact-icons{
+    height: 17%;
+    width: 100%;
+    background-color: #221e48;
+    padding: 10px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-icons a i{
+    color: #a091e7;
+    font-size: 2em;
+}
+/* education-section */
+#education{
+    background-color: rgba(189, 194, 201, 0.1);
+    height: 600px;
+}
+
+#education .container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+} 
+.education-wrapper{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    flex-basis: 0;
+    flex-grow: 1;
+    height: 100%;
+    padding: 20px 2px;
+}
+
+.titles{
+    padding: 10px 0;
+}
+
+.titles h4{
+    color:rgba(38, 44, 57, 0.8);
+    padding-bottom: 9px;
+}
+
+.titles p{
+    margin-top: 8px;
+    letter-spacing: 1.1px;
+    line-height: 10px;
+    font-size: 18px;
+}
+
+.rule {
+    display: flex; /* Flexbox for horizontal alignment */
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center the rule horizontally */
+    margin: 20px 0;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Makes it a circle */
+    background-color: #042a6f; /* Purple color */
+    margin-right: 5px; /* Space between dot and line */
+}
+.rule.third{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.line {
+    flex-grow: 1; /* Makes the line stretch */
+    height: 2px; /* Thickness of the line */
+    background-color: #ccc; /* Gray color */
+}
+
+.line-half.third-column{
+    width: 40%;
+    height: 2px; /* Thickness of the line */
+    background-color: #ccc; /* Gray color */
+}
+
+.tab-content h4{
+    margin-bottom: 14px;
+    color:rgba(38, 44, 57, 0.8);
+}
+
+.tab-content p{
+    font-size: 17.5px;
+    color:rgba(38, 44, 57, 0.6);
+    margin-bottom: 16px;
+}
+.tab-content .darker{
+    color: #221e48;
+    line-height: 25px;
 }
